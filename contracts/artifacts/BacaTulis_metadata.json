@@ -1,0 +1,141 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "angka",
+						"type": "uint256"
+					}
+				],
+				"name": "kalikan",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BacaTulis.sol": "BacaTulis"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BacaTulis.sol": {
+			"keccak256": "0xc525ecb4e60f25af192eaae47ff7a107207057096c4afa68e300ebe8c6b0e4b4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://6100b3a3ea3a9dda32f4f45ff2d299113843aa3c604386dfd76396da416b3037",
+				"dweb:/ipfs/QmTSaqPEWdmypogDQ7Y6uJ2TNEHzwaQZ46r16m1t95ekwP"
+			]
+		},
+		"contracts/UppercaseString.sol": {
+			"keccak256": "0xd96e747a407745bd491048b6502c748132208aa3143bf6fc1959ea2df738a30c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3525812092586bf95f71dc3cc85641f19009059bccc16ae5553cbcb58d361274",
+				"dweb:/ipfs/QmSQ2SnsWb3gXqwaMfg43Nc5wigntFNDbwYPWRo9J8bazA"
+			]
+		}
+	},
+	"version": 1
+}

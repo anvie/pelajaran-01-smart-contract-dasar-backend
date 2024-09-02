@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "str",
+						"type": "string"
+					}
+				],
+				"name": "toUpperCase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UppercaseString.sol": "UppercaseString"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UppercaseString.sol": {
+			"keccak256": "0xd96e747a407745bd491048b6502c748132208aa3143bf6fc1959ea2df738a30c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3525812092586bf95f71dc3cc85641f19009059bccc16ae5553cbcb58d361274",
+				"dweb:/ipfs/QmSQ2SnsWb3gXqwaMfg43Nc5wigntFNDbwYPWRo9J8bazA"
+			]
+		}
+	},
+	"version": 1
+}

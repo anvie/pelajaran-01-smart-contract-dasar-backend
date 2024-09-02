@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "setName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"custom:dev-run-script": "./scripts/deploy_with_ethers.ts",
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {},
+			"title": "Storage",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_BacaTulis2.sol": "BacaTulis2"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_BacaTulis2.sol": {
+			"keccak256": "0xf606d29b41675e687d837c2ebe5cfec542f87d847e09d4abc2066a8f48b4d72d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://293e89418f98d79ac4d33480f2f2dda45a9935cea7fa2aca5464ef00a5ef9a04",
+				"dweb:/ipfs/QmbhKLbxxknryAqX51YbhedDMPuhzoXcn1jbn4zHv5tHa1"
+			]
+		},
+		"contracts/UppercaseString.sol": {
+			"keccak256": "0xd96e747a407745bd491048b6502c748132208aa3143bf6fc1959ea2df738a30c",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3525812092586bf95f71dc3cc85641f19009059bccc16ae5553cbcb58d361274",
+				"dweb:/ipfs/QmSQ2SnsWb3gXqwaMfg43Nc5wigntFNDbwYPWRo9J8bazA"
+			]
+		}
+	},
+	"version": 1
+}
